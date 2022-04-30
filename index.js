@@ -116,7 +116,7 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res)=>{
-    res.send('hello world');
+    res.send('geinus car service is running');
 })
 app.listen(port, ()=>{
     console.log('succses fullly ', port);
